@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ali Ezzat">
+  <meta name="keywords" content="Login Form">
+  <meta name="description" content="login Form">
+  <title>Login</title>
+</head>
+
+<body id="logInBody">
+
+  <div class="container logInPage">
+    <div id="login-form">
+      <div id="logInModal" class="shadow modalBox">
+
+          <div id="modalForm">
+
+            <h1 class="text-center mb-5">Login</h1>
+
+            <div class="form-group">
+              <span style="font-family:Arial, FontAwesome">&#xF007;</span>
+              <input id="usernameLogInInput" type="text" class="form-control" placeholder="Username" autocomplete="off" required>
+            </div>
+
+            <div class="form-group">
+              <span style="font-family:Arial, FontAwesome">&#xf023;</span>
+              <input id="passwordLogInInput" type="password" class="form-control" placeholder="Password" required>
+            </div>
+
+            <div>
+              <a id="logInBtn" type="button" class="btn">Log In</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="signup-box">
+          <p>Don't Have Account? <a id="sigUpBtn" href="signup.html">Sign Up Now!</a></p>
+        </div>
+  </div>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
